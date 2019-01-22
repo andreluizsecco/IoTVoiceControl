@@ -1,0 +1,407 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "1.0",
+  "name": "IoTDeviceControl",
+  "desc": "IoTDeviceControl",
+  "culture": "pt-br",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "intent.iot.device_off"
+    },
+    {
+      "name": "intent.iot.device_on"
+    }
+  ],
+  "entities": [
+    {
+      "name": "iot.device_name",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "acenda a lampada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "acender lamp",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "acender lampada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "acender lâmpada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "apagar a luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "apagar lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "apagar luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "apagar uma lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "apague a lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "apague a luz por favor",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "ascenda a lampada por favor",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 10,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "deixar o ambiente com mais luz",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 27,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "deixar o ambiente com menos luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 28,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "deligar a lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 10,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "desligar a lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "desligar a luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "desligar lamp",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "desligar lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "desligar luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "desligue a lampada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "desligue a lâmpada",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "lâmpada desligue",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "ligar a lampada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "ligar a lâmpada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "ligar a luz",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "ligar luz",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "ligar uma lampada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 10,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "ligue a lampada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "ligue a lâmpada",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "ligue a luz por gentileza",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "pode desligar a luz agora",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 16,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "poderia ligar a luz por favor",
+      "intent": "intent.iot.device_on",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 16,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "queria desligar a luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 18,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "quero apagar a luz",
+      "intent": "intent.iot.device_off",
+      "entities": [
+        {
+          "entity": "iot.device_name",
+          "startPos": 15,
+          "endPos": 17
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
